@@ -1,7 +1,7 @@
 # easyScreenCap
 A Windows console app, one can do screen capture quickly by passing the hot key. <br/>
 
-## Usage
+## Quick start
 The app is already well Built. <br/>
 To run the app, just mouse-clicking the following file: <br/>
 
@@ -17,7 +17,7 @@ The corresponding image will be generated in the following folder: <br/>
 - `build` - quick start app <br/>
 - `src` - source code <br/>
 
-## Image Parameter
+## Image parameter
 * name: "yyyy-MM-dd-hhmmss.jpg" <br/>
 * image format: jpg <br/>
 * compression level: (as least as possible) <br/>
