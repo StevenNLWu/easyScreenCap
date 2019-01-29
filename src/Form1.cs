@@ -55,7 +55,7 @@ namespace easyScreenCap
                         // determinate the file name
                         String strFolder = "output";
                         String strFileName = DateTime.Now.ToString("yyyy-MM-dd-hhmmss") + ".jpg";
-                        String strFinalFileName = strFileName;
+                        String strFinalFileName = strFileName.Replace(".jpg", String.Empty) + " " + "(0)" + ".jpg";
                         int intLoopName = 1;
                         while (System.IO.File.Exists(strFolder + "\\" + strFinalFileName))
                         {
